@@ -1,0 +1,46 @@
+*{
+    outline:1px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+}
+
+.nav {
+    height: 100%;
+}
+
+span {
+    float: left;
+    height: 100%;
+}
+
+ul {
+    height: 100%;
+}
+
+li{
+    float: right;
+    height: 100%;
+    list-style-type: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+p {
+    float: right;
+}

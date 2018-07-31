@@ -5,21 +5,21 @@
 body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background: url('http://pbskids.org/oddsquad/img/global/backgrounds/bg-13.jpg') no-repeat center center fixed;
+    background: url('http://www.designbolts.com/wp-content/uploads/2012/12/White-Paper-Seamless-Pattern-For-Website-Background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #9f9f9f;
+    font-weight: 600;
 }
 
 .header {
-    line-height: 80px;
-    height: 80px;
+    line-height: 75px;
+    height: 75px;
     width: 100%;
-}
-
-.nav {
-    height: 100%;
+    background-color: white;
+    border-bottom: 1px solid #9f9f9f;
 }
 
 span {
@@ -27,7 +27,7 @@ span {
 }
 
 ul {
-    height: 100%;
+    margin: 0;
 }
 
 li{
@@ -36,7 +36,7 @@ li{
 }
 
 .container {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ img {
     height: 200px;
     width: 200px;
     float: left;
-    margin: 0 15px 15px 0;
+    margin: 0 25px 25px 0;
 }
 
 .header-font {
@@ -54,3 +54,48 @@ img {
 p {
     line-height: 35px;
 }
+
+.about-me {
+    background-color: white;
+    margin-top: 45px;
+}
+
+#name-title {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 0 25px;
+    font-size: 1.80rem;
+    font-weight: bold;
+}
+
+h1 {
+    padding: 35px 25px 5px 25px;
+    color: #4aaaa5;
+    margin-bottom: 0;
+    font-size: 1.80rem;
+}
+
+hr {
+    margin: 25px;
+    background-color: #c5c5c5;
+    height: 3px;
+    border: 0;
+}
+
+.text-div {
+    padding: 0 25px 25px 25px;
+}
+
+li {
+    padding: 0 25px;
+}
+
+#vertical {
+    padding: 0;
+    color: #f3f3f3;
+    font-weight: 100;
+}
+
+/* Issues:
+1. font-weight
+2. vertical lines */

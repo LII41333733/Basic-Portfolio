@@ -96,6 +96,22 @@ li {
     font-weight: 100;
 }
 
+.footer {
+    margin-top: 100px;
+    background-color: #666666;
+    line-height: 100px;
+    height: 200px;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+    width: 100%;
+    font-size: 0.75rem;
+    color: white;
+}
+
+#footer {
+    float: none;
+}
+
 /* Issues:
 1. font-weight
 2. vertical lines */

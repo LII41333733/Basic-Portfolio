@@ -17,8 +17,8 @@ html, body {
 
 
 .header {
-    line-height: 75px;
-    height: 75px;
+    line-height: 55px;
+    height: 55px;
     width: 100%;
     background-color: #ffffff;
     border-bottom: 2px solid #dddddd;
@@ -58,10 +58,10 @@ p {
     line-height: 30px;
 }
 
-.about-me {
+.main {
     background-color: white;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 
 }
 
@@ -89,7 +89,7 @@ hr {
 }
 
 .text-div {
-    padding: 0 25px 25px 25px;
+    padding: 0 25px 10px 25px;
 }
 
 li {
@@ -104,8 +104,8 @@ li {
 
 .footer {
     background-color: #666666;
-    line-height: 100px;
-    height: 100px;
+    line-height: 45px;
+    height: 45px;
     border-top: 6px solid #4aaaa5;
     text-align: center;
     width: 100%;
@@ -150,11 +150,67 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #b3b3b3;
+    border: 0.5px solid #b3b3b3;
 }
 
 a {
     text-decoration: none;
     color: #808080;
     font-weight: 600;
+}
+
+#last {
+    margin-bottom: 0;
+}
+
+.submit-button {
+    display: inline-block;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 16px 0;
+    text-decoration: none;
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+.gallery-div {
+    height: 250px;
+    width: 300px;
+    background-color: #4aaaa5;
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    position: relative;
+}
+
+#image1 {
+    background: url(../images/tech.jpeg)
+}
+
+#image2 {
+    background: url(../images/tech2.jpeg)
+}
+
+#image3 {
+    background: url(../images/tech3.jpeg)
+}
+
+#image4 {
+    background: url(../images/tech4.jpeg)
+}
+
+#image5 {
+    background: url(../images/tech5.jpeg)
+}
+
+.gallery-div span{
+    height: 50px;
+    width: 100%;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 180px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Georgia';
+    font-size: 1.1rem;
 }
